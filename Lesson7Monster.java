@@ -79,6 +79,9 @@ public class Lesson7Monster {
 
     public static void main(String[] args) {
         Lesson7Monster Anirban = new Lesson7Monster();
-        System.out.println(Anirban.attack); // I can print the private field attack as I am under the class
+        System.out.println(Anirban.attack + Anirban.y_position + Anirban.x_position); // I can print the private field
+                                                                                      // attack as I am under the class
+
+        System.out.println(Anirban.alive);
     }
 }
