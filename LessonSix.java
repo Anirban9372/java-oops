@@ -3,7 +3,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.*;
 
-import javax.imageio.IIOException;
+//import javax.imageio.IIOException;
 
 public class LessonSix {
     // This lesson is about exception handling in Java. Exception handling is a
@@ -93,6 +93,7 @@ public class LessonSix {
 
     public static void getaFile(String filename) throws IOException, FileNotFoundException {
         FileInputStream file = new FileInputStream(filename);
+        System.out.println(file);
     }
 
 }
